@@ -1,0 +1,177 @@
+.contact3 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.contact3 h1,
+.contact3 h2,
+.contact3 h3,
+.contact3 h4,
+.contact3 h5,
+.contact3 h6 {
+  color: #3e4555;
+}
+
+.contact3 .font-weight-medium {
+  font-weight: 500;
+}
+
+.contact3 .card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.contact3 .btn-danger-gradiant {
+  background: #ff4d7e;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #ff4d7e 0%,
+    #ff6a5b 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff4d7e),
+    to(#ff6a5b)
+  );
+  background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.contact3 .btn-danger-gradiant:hover {
+  background: #ff6a5b;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #ff6a5b 0%,
+    #ff4d7e 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff6a5b),
+    to(#ff4d7e)
+  );
+  background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+.social__gps {
+  padding-top: 40px;
+
+  @include mobile {
+    padding-top: 0;
+  }
+}
+
+.social__whatsapp {
+  padding-top: 40px;
+
+  @include mobile {
+    padding-top: 10px;
+  }
+}
+
+.social__telegram {
+  padding-top: 40px;
+
+  @include mobile {
+    padding-top: 10px;
+  }
+}
+
+.whatsapp__text {
+  position: relative;
+}
+
+.whatsapp__text::before {
+  width: 64px;
+  height: 64px;
+  content: "";
+  background-image: url(../img/icons/whatsapp.png);
+  position: absolute;
+  left: 1px;
+  bottom: 7px;
+  margin-left: 25%;
+
+  @include mobile {
+    margin: 0;
+    left: 10%;
+  }
+
+  @include mobileSmall {
+    margin: 0;
+    left: 1%;
+  }
+}
+
+.telegram__text {
+  position: relative;
+}
+
+.telegram__text::before {
+  width: 64px;
+  height: 64px;
+  content: "";
+  background-image: url(../img/icons/telegram.png);
+  position: absolute;
+  left: 1px;
+  bottom: 7px;
+  margin-left: 25%;
+
+  @include mobile {
+    margin: 0;
+    left: 10%;
+  }
+
+  @include mobileSmall {
+    margin: 0;
+    left: 1%;
+  }
+}
+
+.contacts__writeto {
+  padding-top: 50px;
+  @include mobile {
+    padding-top: 15px;
+  }
+}
+
+.wrapper__reverse {
+  @include mobile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.contact__wrapper--map {
+  @include mobile {
+    padding: 2em;
+  }
+}
+
+.contacts__whatsapp--link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.contacts__whatsapp--link:active,
+.contacts__whatsapp--link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.contacts__telegram--link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.contacts__telegram--link:active,
+.contacts__telegram--link:hover {
+  text-decoration: none;
+  color: black;
+}
