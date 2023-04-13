@@ -11873,7 +11873,7 @@ a:hover {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("../../img/icons/arrow-left.png");
+  background-image: url("../img/icons/arrow-left.png");
 }
 
 .carousel-control-prev {
@@ -11886,7 +11886,7 @@ a:hover {
 }
 
 .carousel-control-next-icon {
-  background-image: url("../../img/icons/arrow-right.png");
+  background-image: url("../img/icons/arrow-right.png");
 }
 
 .carousel-control-next {
